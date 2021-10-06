@@ -1,0 +1,12 @@
+[package]
+name = "mrsh"
+version = "0.1.0"
+
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+mrsh_sys = { version = "0.0.1", path = "./mrsh_sys" }
+
+[workspace]
+members = [".", "./mrsh_sys"]

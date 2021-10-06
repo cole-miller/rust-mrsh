@@ -1,0 +1,13 @@
+[package]
+name = "mrsh_sys"
+version = "0.0.1+9f988408"
+
+description = "bindings to mrsh, a C library defining a minimal POSIX shell"
+edition = "2018"
+license = "MIT"
+links = "mrsh"
+
+[build-dependencies]
+bindgen = "0.59.1"
+cc = { version = "1.0.70", features = ["parallel"] }
+dunce = "1.0.2"

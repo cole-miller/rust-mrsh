@@ -1,0 +1,3 @@
+[submodule "mrsh_sys/mrsh"]
+	path = mrsh_sys/mrsh
+	url = https://git.sr.ht/~emersion/mrsh
